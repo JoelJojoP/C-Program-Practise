@@ -22,7 +22,7 @@ int main()
     int num;
     printf("Enter a number: ");
     scanf("%d",&num);
-    printf("The fibonacci series upto the number is: ");
+    printf("The fibonacci series upto the number is:\n");
     int f = fibo(1);
     for(int i = 2;f<=num;i++)
     {

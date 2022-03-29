@@ -29,6 +29,6 @@ int main()
     printf("Enter the number of terms: ");
     scanf("%d",&num);
     float s = SumofSeries(num);
-    printf("The sum of the series 1 + 1/3! + 1/5! ... + 1/n! = %.2f",s);
+    printf("The sum of the series 1 + 1/3! + 1/5! ... + 1/n! = %f",s);
     return 0;
 }
